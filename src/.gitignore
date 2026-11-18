@@ -1,0 +1,17 @@
+# Local secrets/config
+.env
+.env.*
+!.env.example
+*.local.properties
+
+# Build output and IDE files
+target/
+build/
+.idea/
+*.iml
+
+# Local database exports and backups
+backups/
+*.sql.gz
+*.dump
+*.bak
